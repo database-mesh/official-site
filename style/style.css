@@ -1,0 +1,370 @@
+@import url('./normalize.css');
+body{
+    font-family: PingFang SC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+}
+.wrap{
+    width:1440px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+nav{
+    height:116px;
+}
+nav .wrap{
+    height: 100%;
+    box-sizing: border-box;
+    padding:0 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 190px;
+    height: 60px;
+}
+nav .links{
+    display: flex;
+    font-size: 16px;
+    color:#080B22;
+}
+nav .links a{
+    color:#080B22;
+    text-decoration: none;
+}
+nav .links .menu a{
+    margin-right: 40px;
+}
+nav .links .github{
+    margin-left: 40px;
+}
+nav .iconMenu{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url('../images/menu.svg') no-repeat;
+}
+
+.overview {
+    height: 684px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+.overview .banner{
+    position:absolute;
+    height: 684px;
+    box-shadow: 0 -10px 10px 5px #fff inset;
+    top:100px;
+}
+.overview .content{
+    padding:0 250px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.overview .content .title{
+    font-size: 60px;
+    font-family: Styrene A-Bold, Styrene A;
+    font-weight: bold;
+    color: #080B22;
+    line-height: 80px;
+    margin-top:94px;
+    margin-bottom: 30px;
+}
+.overview .content p{
+    font-size: 16px;
+    line-height: 22px;
+}
+.overview .content .sub-title{
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.pisanix{
+    margin-top: 20px;
+    background-color: #F0F2FF;
+}
+
+.pisanix .wrap{
+    display: flex;
+    padding:80px 100px 56px 100px;
+    background:url('../images/Group\ 1027.svg') no-repeat 100px 86px;
+    justify-content: space-between;
+    color: #080B22;
+}
+
+.pisanix .pisanix-introduce{
+    width: 420px;
+    padding:118px 0 0 100px;
+}
+
+.pisanix .pisanix-introduce h3{
+    font-size: 40px;
+    margin:0;
+}
+
+.pisanix .pisanix-introduce p{
+    font-size: 18px;
+}
+
+.pisanix .pisanix-introduce img{
+    width: 600px;
+}
+
+.pisanix .features-item{
+    width: 330px;
+    margin-left: 30px;
+    margin-bottom: 54px;
+}
+.pisanix .features-item img{
+    width: 60px;
+}
+.pisanix .features-item .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pisanix .features-item p{
+    font-size: 16px;
+}
+
+
+.community{
+    padding:80px 0 0;
+}
+.community h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin:0 0 40px;
+}
+.community .content{
+    width: 694px;
+    background-color: #F6F6F6;
+    padding:40px;
+    margin: 0 auto;
+}
+.community .content p span{
+    float:left;
+    width: 190px;
+    margin-right: 40px;
+}
+
+footer{
+    margin-top:80px;
+    margin-bottom: 40px;
+}
+footer .wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding:0 90px;
+}
+footer links{
+
+}
+footer .links a{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+footer .links a:last-child{
+    margin-right: 0;
+}
+footer .links a img{
+    vertical-align: middle;
+    height: 36px;
+    margin-top:-2px;
+}
+footer .copyright{
+    width: 250px;
+    color: #6B6D7A;
+    margin-top: 24px;
+}
+
+.mobileMenu{
+    position: fixed;
+    z-index: 88888;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    overflow: auto;
+    display: none;
+}
+.mobileMenu header{
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobileMenu header img{
+    height: 38px;
+}
+.mobileMenu header .close{
+    width: 40px;
+    height: 40px;
+    background: url('../images/x.svg') no-repeat;
+    cursor: pointer;
+}
+.mobileMenu .mobile-menu-list{
+    padding:24px;
+}
+.mobileMenu .mobile-menu-list a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color:#000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.mobileMenu .lang-select{
+    padding:0 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+}
+.mobileMenu .lang-select .arrow-icon{
+    background: url('../images/arrow.svg') no-repeat center center;
+    width: 40px;
+    height: 40px;
+    transition: all .3s ease;
+}
+.mobileMenu .lang-select.active .arrow-icon{
+    transform: rotate(90deg);
+}
+.mobileMenu .lang-list{
+    padding:0 48px;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.mobileMenu .lang-list.show{
+    height: 100px;
+}
+.mobileMenu .lang-list a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    text-decoration: none;
+}
+.mobileMenu .github{
+    display: block;
+    padding:24px;
+    margin-top: 10px;
+}
+.mobileMenu .github img{
+    height: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrap{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    nav{
+        height: 60px;
+    }
+    nav .wrap{
+        padding:20px;
+        height: auto;
+    }
+    nav .wrap .logo{
+        height: 38px;
+        width: auto;
+    }
+    nav .wrap .links{
+        display: none;
+    }
+    nav .wrap .iconMenu{
+        display: block;
+    }
+
+    .overview .content{
+        padding:0 20px;
+    }
+    .overview .banner{
+        top:275px;
+        display: none;
+    }
+
+    .pisanix{
+        margin-top: 0;
+    }
+    .pisanix .wrap{
+        padding: 80px 24px 16px;
+        background-position: center 60px;
+        background-size: 137px auto;
+        flex-direction: column;
+    }
+
+    .pisanix .pisanix-introduce{
+        width: auto;
+        padding:80px 0 0;
+        text-align: center;
+    }
+
+    .pisanix .pisanix-introduce h3{
+        font-size: 24px;
+    }
+
+    .pisanix .pisanix-introduce p{
+        line-height: 32px;
+    }
+
+    
+
+    .pisanix .features{
+
+    }
+
+    .pisanix .features-item{
+        margin-left: 0;
+    }
+
+    .community{
+        padding-top: 40px;
+    }
+
+    .community .content{
+        width: 300px;
+        padding:16px;
+    }
+
+    .community .content p span{
+    
+        font-weight: bold;
+        font-size: 14px;
+        float: none;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .community .content p{
+        word-wrap: break-word;
+        word-break: normal;
+    }
+
+    footer .wrap{
+        padding: 0 24px;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start;
+    }
+
+    footer .copyright img{
+        height: 38px;
+        margin-top: 64px;
+    }
+}

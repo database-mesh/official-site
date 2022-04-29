@@ -1,0 +1,279 @@
+<!--
+ * @Author: your name
+ * @Date: 2022-04-26 18:45:54
+ * @LastEditTime: 2022-04-29 10:21:06
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /discourse/Users/david/Documents/expmle/official-site/index_zh.html
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <title>Database Mesh</title>
+    <link rel="icon" href="/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <img src="images/Logo Group.svg" alt="logo" class="logo"/>
+            <div class="links">
+                <div class="menu">
+                    <a href="#overview">Overview</a>
+                    <a href="#pisanix">Pisanix</a>
+                    <a href="#community">Community</a>
+                </div>
+                <div class="lang">
+                    <a href="index_zh.html">CN</a>
+                    <span>|</span>
+                    <a href="#">EN</a>
+                </div>
+                <a href="https://github.com/database-mesh/pisanix" class="github">
+                    <img src="https://img.shields.io/github/stars/database-mesh/pisanix.svg?style=social&label=Star"/>
+                </a>
+            </div>
+            <div class="iconMenu"></div>
+        </div>
+    </nav>
+
+    <section class="overview" id="overview">
+        <div class="banner" id="banner"></div>
+        <div class="wrap content">
+            <h2 class="title">Database Mesh</h2>
+            <p class="sub-title">What is Database Mesh ?</p>
+            <p>We designed Database Mesh to help developers reduce database infrastructure loads and improve development efficiency with a transparent and seamless user experience.
+                It implements a configurable, plugin oriented and programmable governance frameworks covering database traffic, runtime resources, and stability assurance.
+                It also provides a standard user interface for typical database scenarios such as heterogeneous data sources, Cloud-Native databases, distributed databases, and Serverless databases. </p>
+        </div>
+    </section>
+    
+    <section class="pisanix" id="pisanix">
+        <div class="wrap">
+            <div class="pisanix-introduce">
+                <h3>Pisanix</h3>
+                <p>Pisanix is an easy-to-use, effective, and practical solution for database grids provided by SphereEx. </p>
+                <!-- <div>
+                    <img src="images/pisanix-arch.png" />
+                </div> -->
+            </div>
+            <div class="features">
+                <div class="features-item">
+                    <img src="images/pisanix-ico1.png" />
+                    <p class="title">SQL-Aware Traffic Management</p>
+                    <p>With SQL parsing capabilities, it provides a series of functions including load balancing, audit, access control, and observability of data traffic.</p>
+                </div>
+                <div class="features-item">
+                    <img src="images/pisanix-ico2.png" />
+                    <p class="title">Runtime Resources Programmability</p>
+                    <p>It can control runtime resource allocation through Linux Kernel capabilities.</p>
+                </div>
+                <div class="features-item">
+                    <img src="images/DBRE.png" />
+                    <p class="title">DBRE</p>
+                    <p>Implements Database Reliability Engineering in a Cloud-Native environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrap community" id="community">
+        <h3>Community</h3>
+        <div class="content">
+            <p>
+                <span>Mailing List</span>
+                https://groups.google.com/forum/#!forum/database-mesh
+            </p>
+            <p>
+                <span>Dev Meetings</span>
+                Bi-weekly (Starting Feb 27th, 2022), Wednesday 10:30AM PST
+            </p>
+            <p>
+                <span>APAC Friendly Dev Meetings</span>
+                Bi-weekly APAC (Starting April 27th, 2022), Wednesday 21:00PM GMT+8
+            </p>
+            <p>
+                <span>Meeting invite</span>
+                https://meet.google.com/yhv-zrby-pyt
+            </p>
+            <p>
+                <span>Meeting notes</span>
+                Google docs
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="links">
+                <a href="https://github.com/database-mesh"><img src="./images/github.svg" /> Github</a>
+                <!-- <a href=""><img src="./images/twitter.svg" /> Twitter</a> -->
+                <a href="https://databasemesh.slack.com"><img src="./images/slack.svg" /> Slack</a>
+                <a href="https://medium.com/@database-mesh"><img src="./images/medium.svg" /> Medium</a>
+                <!-- <a href=""><img src="./images/linkedin.svg" /> LinkedIn</a> -->
+            </div>
+            <div class="copyright">
+                <img src="images/Logo Group.svg" />
+                <p>ICP-2021015875
+                    © 2022 SphereEx. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobileMenu">
+        <header>
+            <img src="images/Logo Group.svg" />
+            <div class="close"></div>
+        </header>
+        <div class="mobile-menu-list">
+            <a href="#overview">Overview</a>
+            <a href="#pisanix">Pisanix</a>
+            <a href="#community">Community</a>
+        </div>
+        <div class="lang-select">
+            <span>Language</span>
+            <div class="arrow-icon"></div>
+        </div>
+        <div class="lang-list">
+            <a href="#">EN</a>
+            <a href="./index_zh.html">CN</a>
+        </div>
+        <a href="https://github.com/database-mesh/pisanix" class="github">
+            <img src="https://img.shields.io/github/stars/database-mesh/pisanix.svg?style=social&label=Star"/>
+        </a>
+    </div>
+
+    <script src="js/jquery.js"></script>
+  <script src="js/three.js"></script>
+  <script type="text/javascript">
+  var SEPARATION = 100,
+    AMOUNTX = 50,
+    AMOUNTY = 50;
+
+  var container;
+  var camera,
+    scene,
+    renderer;
+
+  var particles,
+    particle,
+    count = 0;
+
+  var mouseX = -800,
+    mouseY = -500;
+
+  var windowHalfX = window.innerWidth / 2;
+  var windowHalfY = window.innerHeight / 2;
+
+
+  function init(dom) {
+    container = dom
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+    camera.position.z = 1000;
+    scene = new THREE.Scene();
+    particles = new Array();
+    var PI2 = Math.PI * 2;
+    var material = new THREE.ParticleCanvasMaterial({
+      color: '#f6651c',
+      program: function(context) {
+        context.beginPath();
+        context.arc(0, 0, 1, 0, PI2, true);
+        context.fill();
+      }
+    });
+    var i = 0;
+    for (var ix = 0; ix < AMOUNTX; ix++) {
+      for (var iy = 0; iy < AMOUNTY; iy++) {
+        particle = particles[i++] = new THREE.Particle(material);
+        particle.position.x = ix * SEPARATION - ((AMOUNTX * SEPARATION) / 2);
+        particle.position.z = iy * SEPARATION - ((AMOUNTY * SEPARATION) / 2);
+        scene.add(particle);
+      }
+    }
+    renderer = new THREE.CanvasRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    container.appendChild(renderer.domElement);
+    // document.addEventListener('mousemove', onDocumentMouseMove, false);
+    document.addEventListener('touchstart', onDocumentTouchStart, false);
+    document.addEventListener('touchmove', onDocumentTouchMove, false);
+    window.addEventListener('resize', onWindowResize, false);
+  }
+
+  function onWindowResize() {
+    windowHalfX = window.innerWidth / 2;
+    windowHalfY = window.innerHeight / 2;
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  }
+
+  function onDocumentMouseMove(event) {
+    mouseX = event.clientX - windowHalfX;
+    mouseY = event.clientY - windowHalfY;
+  }
+
+  function onDocumentTouchStart(event) {
+    if (event.touches.length === 1) {
+      event.preventDefault();
+      mouseX = event.touches[0].pageX - windowHalfX;
+      mouseY = event.touches[0].pageY - windowHalfY;
+    }
+  }
+
+  function onDocumentTouchMove(event) {
+    if (event.touches.length === 1) {
+      event.preventDefault();
+      mouseX = event.touches[0].pageX - windowHalfX;
+      mouseY = event.touches[0].pageY - windowHalfY;
+    }
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    render();
+  }
+
+  function render() {
+    camera.position.x += (mouseX - camera.position.x) * .05;
+    camera.position.y += (-mouseY - camera.position.y) * .05;
+    camera.lookAt(scene.position);
+    var i = 0;
+    for (var ix = 0; ix < AMOUNTX; ix++) {
+      for (var iy = 0; iy < AMOUNTY; iy++) {
+        particle = particles[i++];
+        particle.position.y = (Math.sin((ix + count) * 0.3) * 50) + (Math.sin((iy + count) * 0.5) * 50);
+        particle.scale.x = particle.scale.y = (Math.sin((ix + count) * 0.3) + 1) * 2 + (Math.sin((iy + count) * 0.5) + 1) * 2;
+      }
+    }
+    renderer.render(scene, camera);
+    count += 0.1;
+  }
+  let renderAnimation = (container) => {
+    init(container);
+    animate();
+  }
+  let domContainer = document.getElementById('banner')
+  let a = renderAnimation(domContainer)
+
+  let mobileMenu = $('.mobileMenu'),
+  langList = $('.lang-list')
+  $('.iconMenu').click(function(){
+    mobileMenu.show()
+  })
+
+  mobileMenu.find('.close').click(function(){
+    mobileMenu.hide()
+  })
+  
+  $('.lang-select').click(function(){
+      $(this).toggleClass('active')
+      langList.toggleClass('show')
+  })
+
+  $('.mobileMenu a').click(function(){
+    mobileMenu.hide()
+  })
+  </script>
+</body>
+</html>
