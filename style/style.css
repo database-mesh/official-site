@@ -76,7 +76,7 @@ nav .iconMenu{
     font-weight: bold;
     color: #080B22;
     line-height: 80px;
-    margin-top:94px;
+    margin-top:164px;
     margin-bottom: 30px;
 }
 .overview .content p{
@@ -113,6 +113,7 @@ nav .iconMenu{
 
 .pisanix .pisanix-introduce p{
     font-size: 18px;
+    line-height: 32px;
 }
 
 .pisanix .pisanix-introduce img{
@@ -134,6 +135,7 @@ nav .iconMenu{
 }
 .pisanix .features-item p{
     font-size: 16px;
+    line-height: 24px;
 }
 
 
