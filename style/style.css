@@ -82,7 +82,7 @@ nav .iconMenu{
 }
 .overview .content .sub-title{
     font-size: 32px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .pisanix{
@@ -297,7 +297,7 @@ footer .copyright{
     }
     .overview .banner{
         top:275px;
-        display: none;
+        /* display: none; */
     }
 
     .pisanix{
