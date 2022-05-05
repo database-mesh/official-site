@@ -35,6 +35,9 @@ nav .links a{
     color:#080B22;
     text-decoration: none;
 }
+nav .links a:hover,nav .links a.active{
+    color:#F6651C;
+}
 nav .links .menu a{
     margin-right: 40px;
 }
