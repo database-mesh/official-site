@@ -1,4 +1,7 @@
 @import url('./normalize.css');
+*{
+    touch-action:pan-y;
+}
 body{
     font-family: PingFang SC-Regular, PingFang SC;
     font-weight: 400;
@@ -76,7 +79,7 @@ nav .iconMenu{
     font-weight: bold;
     color: #080B22;
     line-height: 80px;
-    margin-top:164px;
+    margin-top:134px;
     margin-bottom: 30px;
 }
 .overview .content p{
