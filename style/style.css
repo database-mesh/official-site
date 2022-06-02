@@ -154,12 +154,20 @@ nav .iconMenu{
     font-weight: bold;
     text-align: center;
     margin:0 0 40px;
+    font-family: Styrene A Web,sans-serif;
 }
 .community .content{
     width: 715px;
     background-color: #F6F6F6;
     padding:40px;
     margin: 0 auto;
+}
+.community .content a{
+    color:#000;
+    text-decoration: none;
+}
+.community .content a:hover{
+    text-decoration: underline;
 }
 .community .content p span{
     float:left;
