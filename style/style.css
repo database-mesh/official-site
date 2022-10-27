@@ -140,10 +140,15 @@ nav .iconMenu{
     line-height: 24px;
 }
 
+.supporters .list{
+    display: flex;
+    justify-content: center;
+}
+
 .supporters img{
     display: block;
-    height: 101px;
-    margin: 40px auto 80px;
+    height: 100px;
+    margin: 10px 10px 111px;
 }
 
 .community, .supporters{
@@ -154,7 +159,7 @@ nav .iconMenu{
     font-weight: bold;
     text-align: center;
     margin:0 0 40px;
-    font-family: Styrene A Web,sans-serif;
+    font-family: Styrene A Web,sans-serif ;
 }
 .community .content{
     width: 715px;
